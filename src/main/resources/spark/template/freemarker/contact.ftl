@@ -31,7 +31,13 @@
 
 <div id="nav">
 <a href="/contact">Contact Us</a>
-<a href="ping1">Ping Challenge</a>
+<a href="/ping1">Ping Challenge</a>
 </div>
 
+<div id="section">
+Joana Andrea Mina<br>
+Hazel Lavarias<br>
+Adrian Angelo Eusebio<br>
+Mark Elvin Panganiban<br>
+</div>
 </html>
