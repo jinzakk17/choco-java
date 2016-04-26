@@ -23,12 +23,6 @@ public class YoseGame {
         }, new FreeMarkerEngine());
     	
     	get("/ping", (request, response) -> {
-    		response.type("text/html");
-    		
-            return new ModelAndView(new Object(), "ping.ftl");
-        }, new FreeMarkerEngine());
-    	
-    	get("/ping", (request, response) -> {
     		response.type("application/json");
     		
     		return new Status(true); 
