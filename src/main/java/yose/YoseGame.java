@@ -21,6 +21,12 @@ public class YoseGame {
     		
             return new ModelAndView(new Object(), "index.ftl");
         }, new FreeMarkerEngine());
+
+    	get("/astroport", (request, response) -> {
+    		response.type("text/html");
+    		
+            return new ModelAndView(new Object(), "chocoastroport.ftl");
+        }, new FreeMarkerEngine());
     	
     	get("/ping", (request, response) -> {
     		response.type("application/json");
