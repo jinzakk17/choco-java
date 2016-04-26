@@ -26,14 +26,14 @@
 <body>
 
 <div id="header">
-<h1>Contact Us</h1>
+<h1>Hello Yose</h1>
 </div>
 
 <div id="nav">
 <a id="contact-me-link" href="/contact">Contact Us</a><br>
 <a id="repository-link" href="https://github.com/jinzakk17/choco-java">Read Me</a><br>
 <a id="ping-challenge-link" href="/ping">Ping Challenge</a>
-<a id="astro-choco" href="/astroport>Go to Choco Astroport</a>
+<a id="astro-choco" href="/astroport">Go to Choco Astroport</a>
 </div>
 
 </html>
