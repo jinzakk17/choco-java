@@ -33,6 +33,12 @@ public class YoseGame {
     		
             return new ModelAndView(new Object(), "contact.ftl");
         }, new FreeMarkerEngine());
+    	
+    	get("/minesweeper", (request, response) -> {
+    		response.type("text/html");
+    		System.out.println("dumaan");
+            return new ModelAndView(new Object(), "minesweeper.ftl");
+        }, new FreeMarkerEngine());
     }
     
     static int getHerokuAssignedPort() {

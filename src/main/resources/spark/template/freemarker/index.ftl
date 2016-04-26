@@ -12,7 +12,7 @@
     line-height:30px;
     background-color:#eeeeee;
     height:300px;
-    width:100px;
+    width:150px;
     float:left;
     padding:5px;	      
 }
@@ -32,8 +32,9 @@
 <div id="nav">
 <a id="contact-me-link" href="/contact">Contact Us</a><br>
 <a id="repository-link" href="https://github.com/jinzakk17/choco-java">Read Me</a><br>
-<a id="ping-challenge-link" href="/ping">Ping Challenge</a>
-<a id="astro-choco" href="/astroport">Go to Choco Astroport</a>
+<a id="ping-challenge-link" href="/ping">Ping Challenge</a><br>
+<a id="astro-choco" href="/astroport">Go to Choco Astroport</a><br>
+<a id="minesweeper" href="/minesweeper">Minesweeper Game</a><br>
 </div>
 
 </html>
