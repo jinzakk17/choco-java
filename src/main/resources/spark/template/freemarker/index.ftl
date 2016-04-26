@@ -32,6 +32,7 @@
 <div id="nav">
 <a id="contact-me-link" href="/contact">Contact Us</a>
 <a id="ping-challenge-link" href="/ping">Ping Challenge</a>
+<a id="astro-choco" href="/astroport>Go to Choco Astroport</a>
 </div>
 
 </html>

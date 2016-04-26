@@ -22,7 +22,7 @@ public class YoseGame {
             return new ModelAndView(new Object(), "index.ftl");
         }, new FreeMarkerEngine());
     	
-    	get("/ping1", (request, response) -> {
+    	get("/ping", (request, response) -> {
     		response.type("text/html");
     		
             return new ModelAndView(new Object(), "ping.ftl");
