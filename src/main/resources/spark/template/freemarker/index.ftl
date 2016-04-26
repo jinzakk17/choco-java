@@ -32,9 +32,14 @@
 <div id="nav">
 <a id="contact-me-link" href="/contact">Contact Us</a><br>
 <a id="repository-link" href="https://github.com/jinzakk17/choco-java">Read Me</a><br>
+<<<<<<< HEAD
 <a id="ping-challenge-link" href="/ping">Ping Challenge</a><br>
 <a id="astro-choco" href="/astroport">Go to Choco Astroport</a><br>
 <a id="minesweeper" href="/minesweeper">Minesweeper Game</a><br>
+=======
+<a id="ping-challenge-link" href="/ping">Ping Challenge</a>
+<a href="/astroport">Go to Choco Astroport</a>
+>>>>>>> a8223e17c6dfc2ed2229d3fe4a5e66d6795a1b9a
 </div>
 
 </html>
