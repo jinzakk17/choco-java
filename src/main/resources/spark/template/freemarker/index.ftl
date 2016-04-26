@@ -30,8 +30,9 @@
 </div>
 
 <div id="nav">
-<a href="/contact">Contact Us</a>
-<a href="ping1">Ping Challenge</a>
+<a id="contact-me-link" href="/contact">Contact Us</a>
+<a id="ping-challenge-link" href="ping1">Ping Challenge</a>
+<a id="repository-link" href="https://github.com/jinzakk17/choco-java/blob/master/README.md">Read Me</a>
 </div>
 
 </html>
