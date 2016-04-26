@@ -34,6 +34,7 @@
 <a id="repository-link" href="https://github.com/jinzakk17/choco-java">Read Me</a><br>
 <a id="ping-challenge-link" href="/ping">Ping Challenge</a>
 <a href="/astroport">Go to Choco Astroport</a>
+<a href="/primefactors/:param">Prime Factor</a>
 </div>
 
 </html>

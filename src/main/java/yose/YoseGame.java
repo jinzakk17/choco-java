@@ -3,12 +3,19 @@ package yose;
 import java.util.HashMap;
 import java.util.Map;
 
+import static spark.Spark.*;
+
 import spark.ModelAndView;
+import spark.Request;
+import spark.Response;
+import spark.Route;
 import spark.template.freemarker.FreeMarkerEngine;
 
 import static spark.Spark.*;
 
 import com.google.gson.Gson;
+
+import jdk.internal.org.objectweb.asm.Handle;
 
 public class YoseGame {
     public static void main(String[] args) {
@@ -39,6 +46,12 @@ public class YoseGame {
     		
             return new ModelAndView(new Object(), "contact.ftl");
         }, new FreeMarkerEngine());
+    	
+    	get("/primefactors/:number", (request,response) -> {
+    		return "Hello: " + request.params(":number");
+    	});
+    	
+    	
     }
     
     static int getHerokuAssignedPort() {
@@ -48,4 +61,6 @@ public class YoseGame {
         }
         return 4567; //return default port if heroku-port isn't set (i.e. on localhost)
     }
+    
+    
 }
