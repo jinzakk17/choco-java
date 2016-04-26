@@ -31,7 +31,7 @@
 
 <div id="nav">
 <a id="contact-me-link" href="/contact">Contact Us</a>
-<a id="ping-challenge-link" href="ping1">Ping Challenge</a>
+<a id="ping-challenge-link" href="/ping">Ping Challenge</a>
 </div>
 
 </html>
