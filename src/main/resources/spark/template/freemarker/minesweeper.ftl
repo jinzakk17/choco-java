@@ -45,7 +45,7 @@
 </div>
 
 <div id="section">
-<h1>Minesweeper Game</h1>
+<h1>Minesweeper</h1>
 
 	<table style="width:100%">
 

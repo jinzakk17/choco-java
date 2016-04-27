@@ -47,13 +47,13 @@ public class YoseGame {
             return new ModelAndView(new Object(), "contact.ftl");
         }, new FreeMarkerEngine());
     	
-    	get("/primefactors/:number", (request,response) -> {
-    		return "Hello: " + request.params(":number");
+    	get("/primefactors", (request,response) -> {
+    		String param = request.queryParams("number");
+    		return "Hello: " + param;
     	});
     	
     	get("/minesweeper", (request, response) -> {
     		response.type("text/html");
-    		System.out.println("dumaan");
             return new ModelAndView(new Object(), "minesweeper.ftl");
         }, new FreeMarkerEngine());
     }
@@ -65,6 +65,4 @@ public class YoseGame {
         }
         return 4567; //return default port if heroku-port isn't set (i.e. on localhost)
     }
-    
-    
 }
