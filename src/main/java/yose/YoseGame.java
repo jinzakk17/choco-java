@@ -1,8 +1,11 @@
 package yose;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+=======
+>>>>>>> cacf5ea06832a97831a4c9c76addf929fdc48fb6
 import java.util.Map;
 
 import static spark.Spark.*;
@@ -19,8 +22,6 @@ import com.google.gson.Gson;
 
 
 public class YoseGame {
-	static ArrayList<Integer> listOfTwo = new ArrayList();
-
 	public static void main(String[] args) {
     	port(getHerokuAssignedPort());
     	
@@ -52,12 +53,16 @@ public class YoseGame {
     	
     	get("/primefactors", (request,response) -> {
     		String param = request.queryParams("number");
-    		return "Hello: " + power.calculatePowerOfTwo(listOfTwo, Integer.parseInt(param));
+    		PowerOfTwo power = new PowerOfTwo();
+    		power.listOfTwo.clear();
+    		power.calculatePowerOfTwo(Integer.parseInt(param));
+    		return "Hello: " + power.listOfTwo;
     	});
     	get("/minesweeper", (request, response) -> {
     		response.type("text/html");
             return new ModelAndView(new Object(), "minesweeper.ftl");
         }, new FreeMarkerEngine());
+    	
     }
     
     static int getHerokuAssignedPort() {
