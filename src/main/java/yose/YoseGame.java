@@ -1,6 +1,5 @@
 package yose;
 
-<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -47,7 +46,7 @@ public class YoseGame {
             return new ModelAndView(new Object(), "contact.ftl");
         }, new FreeMarkerEngine());
     	
-    	get("/primefactors", (request,response) -> {
+    	get("/primeFactors", (request,response) -> {
     		response.type("application/json");
     		
     		String param = request.queryParams("number");
