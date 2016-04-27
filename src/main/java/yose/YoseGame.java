@@ -1,11 +1,8 @@
 package yose;
 
-<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-=======
->>>>>>> cacf5ea06832a97831a4c9c76addf929fdc48fb6
 import java.util.Map;
 
 import static spark.Spark.*;
