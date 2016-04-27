@@ -15,7 +15,6 @@ import static spark.Spark.*;
 
 import com.google.gson.Gson;
 
-//import jdk.internal.org.objectweb.asm.*;
 
 public class YoseGame {
     public static void main(String[] args) {
@@ -47,9 +46,14 @@ public class YoseGame {
             return new ModelAndView(new Object(), "contact.ftl");
         }, new FreeMarkerEngine());
     	
+<<<<<<< HEAD
     	get("/primefactors", (request,response) -> {
     		String param = request.queryParams("number");
     		return "Hello: " + param;
+=======
+    	get("/primefactors?number", (request,response) -> {
+    		return "Hello: " + request.params(":number");
+>>>>>>> 6509799aaed27bad685939d1f474b7b8aeab5fea
     	});
     	
     	get("/minesweeper", (request, response) -> {
