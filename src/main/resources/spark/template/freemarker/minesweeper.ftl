@@ -49,92 +49,80 @@ table, th, td {
 	<table style="width:100%">
 
   		<tr>
-			<td id="Cell1">O</td>
-            <td id="Cell2">O</td>
-            <td id="Cell3">O</td>
-            <td id="Cell4">O</td>
-            <td id="Cell5">O</td>
-            <td id="Cell6">O</td>
-            <td id="Cell7">O</td>
-            <td id="Cell8">O</td>
+			<td id="cell-1x1">O</td>
+            <td id="cell-1x2">O</td>
+            <td id="cell-1x3">O</td>
+            <td id="cell-1x4">O</td>
+            <td id="cell-1x5">O</td>
+            <td id="cell-1x6">O</td>
+            <td id="cell-1x7">O</td>
+            <td id="cell-1x8">O</td>
   		</tr>
   		
   		<tr>
-	        <td id="Cell9">O</td>
-	        <td id="Cell10">O</td>
-	        <td id="Cell11">O</td>
-	        <td id="Cell12">O</td>
-	        <td id="Cell13">O</td>
-	        <td id="Cell14">O</td>
-	        <td id="Cell15">O</td>
-	        <td id="Cell16">O</td>
+	        <td id="cell-2x1">O</td>
+	        <td id="cell-2x2">O</td>
+	        <td id="cell-2x3">O</td>
+	        <td id="cell-2x4">O</td>
+	        <td id="cell-2x5">O</td>
+	        <td id="cell-2x6">O</td>
+	        <td id="cell-2x7">O</td>
+	        <td id="cell-2x8>O</td>
   		</tr>
   		
   		<tr>
-            <td id="Cell17">O</td>
-            <td id="Cell18">O</td>
-            <td id="Cell19">O</td>
-            <td id="Cell20">O</td>
-            <td id="Cell21">O</td>
-            <td id="Cell22">O</td>
-            <td id="Cell23">O</td>
-            <td id="Cell24">O</td>
+            <td id="cell-3x1">O</td>
+            <td id="cell-3x2">O</td>
+            <td id="cell-3x3">O</td>
+            <td id="cell-3x4">O</td>
+            <td id="cell-3x5">O</td>
+            <td id="cell-3x6">O</td>
+            <td id="cell-3x7">O</td>
+            <td id="cell-3x8">O</td>
   		</tr>
   		
   		<tr>
-            <td id="Cell25">O</td>
-            <td id="Cell26">O</td>
-            <td id="Cell27">O</td>
-            <td id="Cell28">O</td>
-            <td id="Cell29">O</td>
-            <td id="Cell30">O</td>
-            <td id="Cell31">O</td>
-            <td id="Cell32">O</td>
+            <td id="cell-4x1">O</td>
+            <td id="cell-4x2">O</td>
+            <td id="cell-4x3">O</td>
+            <td id="cell-4x4">O</td>
+            <td id="cell-4x5">O</td>
+            <td id="cell-4x6">O</td>
+            <td id="cell-4x7">O</td>
+            <td id="cell-4x8">O</td>
   		</tr>
   		
   		<tr>
-	        <td id="Cell33">O</td>
-	        <td id="Cell34">O</td>
-	        <td id="Cell35">O</td>
-	        <td id="Cell36">O</td>
-	        <td id="Cell37">O</td>
-	        <td id="Cell38">O</td>
-	        <td id="Cell39">O</td>
-	        <td id="Cell40">O</td>
-  		</tr>
-  		
-  		<tr>
-            <td id="Cell41">O</td>
-            <td id="Cell42">O</td>
-            <td id="Cell43">O</td>
-            <td id="Cell44">O</td>
-            <td id="Cell45">O</td>
-            <td id="Cell46">O</td>
-            <td id="Cell47">O</td>
-            <td id="Cell48">O</td>
-  		</tr>
-  		
-  		<tr>
-	        <td id="Cell49">O</td>
-	        <td id="Cell50">O</td>
-	        <td id="Cell51">O</td>
-	        <td id="Cell52">O</td>
-	        <td id="Cell53">O</td>
-	        <td id="Cell54">O</td>
-	        <td id="Cell55">O</td>
-	        <td id="Cell56">O</td>
-  		</tr>
-  		
-  		<tr>
-	        <td id="Cell57">O</td>
-	        <td id="Cell58">O</td>
-	        <td id="Cell59">O</td>
-	        <td id="Cell60">O</td>
-	        <td id="Cell61">O</td>
-	        <td id="Cell62">O</td>
-	        <td id="Cell63">O</td>
-	        <td id="Cell64">O</td>
-  		</tr>
+			<td id="cell-6x1">O</td>
+			<td id="cell-6x2">O</td>
+			<td id="cell-6x3">O</td>
+<td id="cell-6x4">O</td>
+<td id="cell-6x5">O</td>
+<td id="cell-6x6">O</td>
+<td id="cell-6x7">O</td>
+<td id="cell-6x8">O</td>
+</tr>  
+<tr>
+<td id="cell-7x1">O</td>
+<td id="cell-7x2">O</td>
+<td id="cell-7x3">O</td>
+<td id="cell-7x4">O</td>
+<td id="cell-7x5">O</td>
+<td id="cell-7x6">O</td>
+<td id="cell-7x7">O</td>
+<td id="cell-7x8">O</td>
+</tr>  
+<tr>
+<td id="cell-8x1">O</td>
+<td id="cell-8x2">O</td>
+<td id="cell-8x3">O</td>
+<td id="cell-8x4">O</td>
+<td id="cell-8x5">O</td>
+<td id="cell-8x6">O</td>
+<td id="cell-8x7">O</td>
+<td id="cell-8x8">O</td>
+</tr>  
+
 	</table>
 
 	
