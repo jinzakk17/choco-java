@@ -1,5 +1,6 @@
 package yose;
 
+import java.util.List;
 import java.util.Map;
 
 import static spark.Spark.*;
@@ -46,13 +47,21 @@ public class YoseGame {
         }, new FreeMarkerEngine());
     	
     	get("/primefactors", (request,response) -> {
+    		response.type("application/json");
+    		
     		String param = request.queryParams("number");
+    		int number = Integer.parseInt(param);
 
     		PowerOfTwo power = new PowerOfTwo();
     		power.listOfTwo.clear();
-    		power.calculatePowerOfTwo(Integer.parseInt(param));
-    		return "Hello: " + power.listOfTwo;
-    	});
+    		
+    		List<Integer> decomposition = power.calculatePowerOfTwo(number);
+    		
+    		PowerOfTwoJson powerOfTwoJson = new PowerOfTwoJson(number, decomposition);
+    		System.out.println(powerOfTwoJson);
+    		return powerOfTwoJson;
+    		
+    	},gson::toJson);
     	
     	get("/minesweeper", (request, response) -> {
     		response.type("text/html");
