@@ -67,7 +67,7 @@ table, th, td {
 	        <td id="cell-2x5">O</td>
 	        <td id="cell-2x6">O</td>
 	        <td id="cell-2x7">O</td>
-	        <td id="cell-2x8>O</td>
+	        <td id="cell-2x8">O</td>
   		</tr>
   		
   		<tr>
@@ -91,37 +91,46 @@ table, th, td {
             <td id="cell-4x7">O</td>
             <td id="cell-4x8">O</td>
   		</tr>
-  		
+  		<tr>
+			<td id="cell-5x1">O</td>
+			<td id="cell-5x2">O</td>
+			<td id="cell-5x3">O</td>
+			<td id="cell-5x4">O</td>
+			<td id="cell-5x5">O</td>
+			<td id="cell-5x6">O</td>
+			<td id="cell-5x7">O</td>
+			<td id="cell-5x8">O</td>
+		</tr>    		
   		<tr>
 			<td id="cell-6x1">O</td>
 			<td id="cell-6x2">O</td>
 			<td id="cell-6x3">O</td>
-<td id="cell-6x4">O</td>
-<td id="cell-6x5">O</td>
-<td id="cell-6x6">O</td>
-<td id="cell-6x7">O</td>
-<td id="cell-6x8">O</td>
-</tr>  
-<tr>
-<td id="cell-7x1">O</td>
-<td id="cell-7x2">O</td>
-<td id="cell-7x3">O</td>
-<td id="cell-7x4">O</td>
-<td id="cell-7x5">O</td>
-<td id="cell-7x6">O</td>
-<td id="cell-7x7">O</td>
-<td id="cell-7x8">O</td>
-</tr>  
-<tr>
-<td id="cell-8x1">O</td>
-<td id="cell-8x2">O</td>
-<td id="cell-8x3">O</td>
-<td id="cell-8x4">O</td>
-<td id="cell-8x5">O</td>
-<td id="cell-8x6">O</td>
-<td id="cell-8x7">O</td>
-<td id="cell-8x8">O</td>
-</tr>  
+			<td id="cell-6x4">O</td>
+			<td id="cell-6x5">O</td>
+			<td id="cell-6x6">O</td>
+			<td id="cell-6x7">O</td>
+			<td id="cell-6x8">O</td>
+		</tr>  
+		<tr>
+			<td id="cell-7x1">O</td>
+			<td id="cell-7x2">O</td>
+			<td id="cell-7x3">O</td>
+			<td id="cell-7x4">O</td>
+			<td id="cell-7x5">O</td>
+			<td id="cell-7x6">O</td>
+			<td id="cell-7x7">O</td>
+			<td id="cell-7x8">O</td>
+		</tr>  
+		<tr>
+			<td id="cell-8x1">O</td>
+			<td id="cell-8x2">O</td>
+			<td id="cell-8x3">O</td>
+			<td id="cell-8x4">O</td>
+			<td id="cell-8x5">O</td>
+			<td id="cell-8x6">O</td>
+			<td id="cell-8x7">O</td>
+			<td id="cell-8x8">O</td>
+		</tr>  
 
 	</table>
 
