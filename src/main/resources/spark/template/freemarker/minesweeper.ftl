@@ -23,10 +23,9 @@
     padding:10px;	 	 
 }
 
-	table, th, td {
+table, th, td {
     	border: 1px solid black;
      	border-collapse: collapse;
-	}
 }
 </style>
 </head>
@@ -45,7 +44,7 @@
 </div>
 
 <div id="section">
-<h1>Minesweeper</h1>
+<h1 id="Minesweeper">Minesweeper</h1>
 
 	<table style="width:100%">
 

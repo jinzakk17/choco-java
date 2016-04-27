@@ -1,5 +1,8 @@
 package yose;
 
+<<<<<<< HEAD
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -11,13 +14,11 @@ import spark.Response;
 import spark.Route;
 import spark.template.freemarker.FreeMarkerEngine;
 
-import static spark.Spark.*;
-
 import com.google.gson.Gson;
 
 
 public class YoseGame {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
     	port(getHerokuAssignedPort());
     	
     	Gson gson = new Gson();
@@ -50,6 +51,7 @@ public class YoseGame {
     		response.type("application/json");
     		
     		String param = request.queryParams("number");
+
     		int number = Integer.parseInt(param);
 
     		PowerOfTwo power = new PowerOfTwo();
@@ -77,4 +79,5 @@ public class YoseGame {
         }
         return 4567; //return default port if heroku-port isn't set (i.e. on localhost)
     }
+    
 }

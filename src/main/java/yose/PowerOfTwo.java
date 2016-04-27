@@ -21,7 +21,5 @@ public class PowerOfTwo {
 		}
 
 		return listOfTwo;
-		
 	}
-
-}
+}  
