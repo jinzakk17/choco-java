@@ -1,6 +1,8 @@
 package yose;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import static spark.Spark.*;
@@ -17,7 +19,9 @@ import com.google.gson.Gson;
 
 
 public class YoseGame {
-    public static void main(String[] args) {
+	static ArrayList<Integer> listOfTwo = new ArrayList();
+
+	public static void main(String[] args) {
     	port(getHerokuAssignedPort());
     	
     	Gson gson = new Gson();
@@ -46,16 +50,10 @@ public class YoseGame {
             return new ModelAndView(new Object(), "contact.ftl");
         }, new FreeMarkerEngine());
     	
-<<<<<<< HEAD
     	get("/primefactors", (request,response) -> {
     		String param = request.queryParams("number");
-    		return "Hello: " + param;
-=======
-    	get("/primefactors?number", (request,response) -> {
-    		return "Hello: " + request.params(":number");
->>>>>>> 6509799aaed27bad685939d1f474b7b8aeab5fea
+    		return "Hello: " + power.calculatePowerOfTwo(listOfTwo, Integer.parseInt(param));
     	});
-    	
     	get("/minesweeper", (request, response) -> {
     		response.type("text/html");
             return new ModelAndView(new Object(), "minesweeper.ftl");
@@ -69,4 +67,5 @@ public class YoseGame {
         }
         return 4567; //return default port if heroku-port isn't set (i.e. on localhost)
     }
+    
 }
