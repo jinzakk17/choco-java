@@ -46,7 +46,7 @@ public class YoseGame {
             return new ModelAndView(new Object(), "contact.ftl");
         }, new FreeMarkerEngine());
     	
-    	get("/primefactors/:number", (request,response) -> {
+    	get("/primefactors?number", (request,response) -> {
     		return "Hello: " + request.params(":number");
     	});
     	

@@ -35,7 +35,7 @@
 <a id="ping-challenge-link" href="/ping">Ping Challenge</a><br>
 <a id="astro-choco" href="/astroport">Go to Choco Astroport</a><br>
 <a id="minesweeper" href="/minesweeper">Minesweeper Game</a><br>
-<a href="/primefactors/:param">Prime Factor</a>
+<a href="/primefactor?number">Prime Factor</a>
 </div>
 
 </html>
